@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-10-22",
+  "request_interval_seconds": 1.0,
+  "request_timeout_seconds": 30,
+  "http_retry_total": 3,
+  "retry_after_enabled": true,
+  "contact_user_agent_configured": true,
+  "actual_user_agent_redacted": true,
+  "verification": "コードと設定の確認。全外部リクエストの時刻を実測した証明ではない。"
+}

@@ -1,0 +1,15 @@
+프로젝트: EcoPedia
+확인일: 2026-10-22
+
+app.py : 존재
+ecopedia/catalog.py : 존재
+ecopedia/config.py : 존재
+ecopedia/sources.py : 존재
+ecopedia/ingestion.py : 존재
+ecopedia/store.py : 존재
+ecopedia/prompts.py : 존재
+ecopedia/llm.py : 존재
+ecopedia/rag.py : 존재
+ecopedia/service.py : 존재
+ecopedia/ecology.py : 존재
+ecopedia/ui.py : 존재

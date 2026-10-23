@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-23",
+  "requirement": "NF2004",
+  "test_mode": "actual_app_ui_with_synthetic_internal_exception",
+  "displayed_error": "처리하지 못했습니다. 연결·모델 설정을 확인한 뒤 다시 시도해 주세요.",
+  "exception_tree_count": 0,
+  "test_key_hidden": true,
+  "test_prompt_sentinel_hidden": true,
+  "traceback_hidden_on_screen": true,
+  "test_key_redacted_in_log": true,
+  "real_credentials_used": false,
+  "external_api_calls": 0,
+  "all_checks_passed": true,
+  "scope_note": "인위적으로 주입한 예외의 실제 Streamlit UI 요소·로컬 로그 검사. 브라우저 스크린샷은 아님."
+}

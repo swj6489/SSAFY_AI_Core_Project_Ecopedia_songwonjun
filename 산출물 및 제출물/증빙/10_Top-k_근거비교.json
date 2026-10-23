@@ -1,0 +1,195 @@
+{
+  "checked_on": "2026-10-23",
+  "checklist_item": 6,
+  "requirement": "F2006",
+  "species": "삵",
+  "species_id": "sp_0017",
+  "question": "삵은 주로 무엇을 먹으며 어떤 시간대에 활동하는가?",
+  "search_type": "similarity",
+  "embedding_model": "text-embedding-3-small",
+  "settings_source": "config.json with dataclasses.replace(top_k=k) on a snapshot",
+  "database_before": {
+    "meta": 282,
+    "docs": 892
+  },
+  "runs": [
+    {
+      "top_k": 2,
+      "external_chunks": 2,
+      "merged_evidence": 3,
+      "evidence": [
+        {
+          "evidence_id": 1,
+          "chunk_id": "meta:sp_0017",
+          "title": "삵 종 메타데이터",
+          "source_type": "metadata",
+          "source_url": "https://www.nie.re.kr/nie/cmmn/file/fileDown.do?atchFileId=65e8ae569f7e4520b6106ffdf92c3161&fileSn=1",
+          "record_kind": "",
+          "text_chars": 128,
+          "text_sha256": "660e665b2ccb95f3753d91dd8c0c34060085f48b12c6810fe564af0cf833453d"
+        },
+        {
+          "evidence_id": 2,
+          "chunk_id": "doc:sp_0017:ko-wiki-116726:0",
+          "title": "삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 976,
+          "text_sha256": "938997eafb03f7494cc429e67ac8c30e455f63f3c2a918af449ec1ed78adcacf"
+        },
+        {
+          "evidence_id": 3,
+          "chunk_id": "doc:sp_0017:ko-wiki-116726:1",
+          "title": "삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 378,
+          "text_sha256": "925e34860f1596616b8a5acd41c9b2b7dbdb4387d9c217bc46521d7d354bc668"
+        }
+      ]
+    },
+    {
+      "top_k": 4,
+      "external_chunks": 4,
+      "merged_evidence": 5,
+      "evidence": [
+        {
+          "evidence_id": 1,
+          "chunk_id": "meta:sp_0017",
+          "title": "삵 종 메타데이터",
+          "source_type": "metadata",
+          "source_url": "https://www.nie.re.kr/nie/cmmn/file/fileDown.do?atchFileId=65e8ae569f7e4520b6106ffdf92c3161&fileSn=1",
+          "record_kind": "",
+          "text_chars": 128,
+          "text_sha256": "660e665b2ccb95f3753d91dd8c0c34060085f48b12c6810fe564af0cf833453d"
+        },
+        {
+          "evidence_id": 2,
+          "chunk_id": "doc:sp_0017:ko-wiki-116726:0",
+          "title": "삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 976,
+          "text_sha256": "938997eafb03f7494cc429e67ac8c30e455f63f3c2a918af449ec1ed78adcacf"
+        },
+        {
+          "evidence_id": 3,
+          "chunk_id": "doc:sp_0017:ko-wiki-116726:1",
+          "title": "삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 378,
+          "text_sha256": "925e34860f1596616b8a5acd41c9b2b7dbdb4387d9c217bc46521d7d354bc668"
+        },
+        {
+          "evidence_id": 4,
+          "chunk_id": "doc:sp_0017:ko-wiki-2504380:0",
+          "title": "아무르삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%AC%B4%EB%A5%B4%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 561,
+          "text_sha256": "7b72db469910a4fabbaa51a1487f0fafbd28b71bb7c8668543c337599253b405"
+        },
+        {
+          "evidence_id": 5,
+          "chunk_id": "doc:sp_0017:ko-wiki-249:25",
+          "title": "대한민국",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+          "record_kind": "",
+          "text_chars": 957,
+          "text_sha256": "ba9ce5ea00fd41a94a7729cade66c168a3bdc692a6d6e71387bd4cbc0d099d1d"
+        }
+      ]
+    },
+    {
+      "top_k": 6,
+      "external_chunks": 6,
+      "merged_evidence": 7,
+      "evidence": [
+        {
+          "evidence_id": 1,
+          "chunk_id": "meta:sp_0017",
+          "title": "삵 종 메타데이터",
+          "source_type": "metadata",
+          "source_url": "https://www.nie.re.kr/nie/cmmn/file/fileDown.do?atchFileId=65e8ae569f7e4520b6106ffdf92c3161&fileSn=1",
+          "record_kind": "",
+          "text_chars": 128,
+          "text_sha256": "660e665b2ccb95f3753d91dd8c0c34060085f48b12c6810fe564af0cf833453d"
+        },
+        {
+          "evidence_id": 2,
+          "chunk_id": "doc:sp_0017:ko-wiki-116726:0",
+          "title": "삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 976,
+          "text_sha256": "938997eafb03f7494cc429e67ac8c30e455f63f3c2a918af449ec1ed78adcacf"
+        },
+        {
+          "evidence_id": 3,
+          "chunk_id": "doc:sp_0017:ko-wiki-116726:1",
+          "title": "삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 378,
+          "text_sha256": "925e34860f1596616b8a5acd41c9b2b7dbdb4387d9c217bc46521d7d354bc668"
+        },
+        {
+          "evidence_id": 4,
+          "chunk_id": "doc:sp_0017:ko-wiki-2504380:0",
+          "title": "아무르삵",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%AC%B4%EB%A5%B4%EC%82%B5",
+          "record_kind": "",
+          "text_chars": 561,
+          "text_sha256": "7b72db469910a4fabbaa51a1487f0fafbd28b71bb7c8668543c337599253b405"
+        },
+        {
+          "evidence_id": 5,
+          "chunk_id": "doc:sp_0017:ko-wiki-249:25",
+          "title": "대한민국",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+          "record_kind": "",
+          "text_chars": 957,
+          "text_sha256": "ba9ce5ea00fd41a94a7729cade66c168a3bdc692a6d6e71387bd4cbc0d099d1d"
+        },
+        {
+          "evidence_id": 6,
+          "chunk_id": "doc:sp_0017:ko-wiki-259:13",
+          "title": "서울특별시",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+          "record_kind": "",
+          "text_chars": 667,
+          "text_sha256": "4194adb0a78000c4d568ad9c9a6a46c85986f7677bf024a8123ee9837126373e"
+        },
+        {
+          "evidence_id": 7,
+          "chunk_id": "doc:sp_0017:ko-wiki-259:38",
+          "title": "서울특별시",
+          "source_type": "web",
+          "source_url": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+          "record_kind": "",
+          "text_chars": 882,
+          "text_sha256": "c1ba2e8ec8c782a9a440e43ae1a8afba2d18e359582a1c37703e6e8c7dadb1a6"
+        }
+      ]
+    }
+  ],
+  "question_embedding_requests": 1,
+  "collection_requests": 0,
+  "generation_requests": 0,
+  "reindex_requests": 0,
+  "evidence_lists_changed": true,
+  "production_config_unchanged": true,
+  "limitation": "실제 저장 문서와 실제 질문 임베딩을 사용한 검색 단계 비교. 답변 품질이나 모델 생성 결과 비교는 아님."
+}

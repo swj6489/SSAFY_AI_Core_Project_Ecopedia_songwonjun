@@ -1,0 +1,107 @@
+검증일: 2026-10-22
+종류: 자동 단위·통합·Streamlit AppTest
+실제 답변 품질 전수 검증과 구분. 테스트 LLM·임베딩 대역 사용.
+
+
+test_approved_local_text_import_keeps_source (test_core.CoreTests.test_approved_local_text_import_keeps_source) ... ok
+test_catalog_counts_grades_and_unknown_fields (test_core.CoreTests.test_catalog_counts_grades_and_unknown_fields) ... ok
+test_citations_use_actual_body_and_reject_unknown (test_core.CoreTests.test_citations_use_actual_body_and_reject_unknown) ... ok
+test_deduplicate_without_losing_comparison_species (test_core.CoreTests.test_deduplicate_without_losing_comparison_species) ... ok
+test_disambiguation_is_not_a_subject (test_core.CoreTests.test_disambiguation_is_not_a_subject) ... ok
+test_invalid_chunk_configuration (test_core.CoreTests.test_invalid_chunk_configuration) ... ok
+test_legacy_ttl_config_cannot_enable_expiration (test_core.CoreTests.test_legacy_ttl_config_cannot_enable_expiration) ... ok
+test_local_manifest_requires_license (test_core.CoreTests.test_local_manifest_requires_license) ... ok
+test_log_redacts_configured_credentials (test_core.CoreTests.test_log_redacts_configured_credentials) ... ok
+test_missing_api_key_and_user_agent (test_core.CoreTests.test_missing_api_key_and_user_agent) ... ok
+test_old_cache_persists_across_restarts_without_expiration (test_core.CoreTests.test_old_cache_persists_across_restarts_without_expiration) ... ok
+test_old_collected_query_and_bodies_never_call_source_after_restart (test_core.CoreTests.test_old_collected_query_and_bodies_never_call_source_after_restart) ... ok
+test_recollection_uses_cache_and_retries_failure (test_core.CoreTests.test_recollection_uses_cache_and_retries_failure) ... ok
+test_roman_grade_inputs_and_constraints (test_core.CoreTests.test_roman_grade_inputs_and_constraints) ... ok
+test_ecology_candidate_filters_and_unchanged_index_skip_embeddings (test_core.VectorIntegrationTests.test_ecology_candidate_filters_and_unchanged_index_skip_embeddings) ... ok
+test_graph_retrieve_generate_and_missing_index (test_core.VectorIntegrationTests.test_graph_retrieve_generate_and_missing_index) ... ok
+test_mmr_runs_with_real_chroma (test_core.VectorIntegrationTests.test_mmr_runs_with_real_chroma) ... ok
+test_real_chroma_upsert_282_and_grade_filter (test_core.VectorIntegrationTests.test_real_chroma_upsert_282_and_grade_filter) ... ok
+test_rechunk_removes_stale_and_isolates_species (test_core.VectorIntegrationTests.test_rechunk_removes_stale_and_isolates_species) ... ok
+test_subject_document_cannot_be_crowded_out (test_core.VectorIntegrationTests.test_subject_document_cannot_be_crowded_out) ... ok
+test_deduplication_and_no_mutation_of_saved_documents (test_coverage.CoverageTests.test_deduplication_and_no_mutation_of_saved_documents) ... ok
+test_empty_and_placeholder_metadata_are_missing (test_coverage.CoverageTests.test_empty_and_placeholder_metadata_are_missing) ... ok
+test_foreign_range_and_legal_grade_do_not_imply_coverage (test_coverage.CoverageTests.test_foreign_range_and_legal_grade_do_not_imply_coverage) ... ok
+test_optional_subgenus_but_not_subspecies_is_normalized (test_coverage.CoverageTests.test_optional_subgenus_but_not_subspecies_is_normalized) ... ok
+test_plant_growth_is_habitat_evidence (test_coverage.CoverageTests.test_plant_growth_is_habitat_evidence) ... ok
+test_real_metadata_is_available_with_provenance (test_coverage.CoverageTests.test_real_metadata_is_available_with_provenance) ... ok
+test_subject_sentences_are_related_not_verified_and_keep_source (test_coverage.CoverageTests.test_subject_sentences_are_related_not_verified_and_keep_source) ... ok
+test_unconfirmed_text_and_link_sections_do_not_count (test_coverage.CoverageTests.test_unconfirmed_text_and_link_sections_do_not_count) ... ok
+test_unrelated_documents_and_wrong_scientific_name_are_excluded (test_coverage.CoverageTests.test_unrelated_documents_and_wrong_scientific_name_are_excluded) ... ok
+test_cached_extraction_and_provenance_survive_restart (test_ecology.EcologyTests.test_cached_extraction_and_provenance_survive_restart) ... ok
+test_condition_exploration_includes_ecology_candidates_and_sources (test_ecology.EcologyTests.test_condition_exploration_includes_ecology_candidates_and_sources) ... ok
+test_embedding_retry_does_not_repeat_extraction (test_ecology.EcologyTests.test_embedding_retry_does_not_repeat_extraction) ... ok
+test_empty_results_cached_and_bad_shapes_retry (test_ecology.EcologyTests.test_empty_results_cached_and_bad_shapes_retry) ... ok
+test_english_breeding_range_and_reverse_habitat_threat_expression (test_ecology.EcologyTests.test_english_breeding_range_and_reverse_habitat_threat_expression) ... ok
+test_english_missing_lookup_is_not_repeated (test_ecology.EcologyTests.test_english_missing_lookup_is_not_repeated) ... ok
+test_english_quote_and_korean_range_validation (test_ecology.EcologyTests.test_english_quote_and_korean_range_validation) ... ok
+test_existing_source_body_is_never_refetched (test_ecology.EcologyTests.test_existing_source_body_is_never_refetched) ... ok
+test_extraction_schema_is_strict (test_ecology.EcologyTests.test_extraction_schema_is_strict) ... ok
+test_historical_dates_are_not_present_day_claims (test_ecology.EcologyTests.test_historical_dates_are_not_present_day_claims) ... ok
+test_invalid_identity_body_is_not_used_or_refetched (test_ecology.EcologyTests.test_invalid_identity_body_is_not_used_or_refetched) ... ok
+test_missing_subject_lookup_is_cached (test_ecology.EcologyTests.test_missing_subject_lookup_is_cached) ... ok
+test_omitted_scientific_name_can_be_checked_without_refetch (test_ecology.EcologyTests.test_omitted_scientific_name_can_be_checked_without_refetch) ... ok
+test_only_literal_relevant_quotes_are_accepted (test_ecology.EcologyTests.test_only_literal_relevant_quotes_are_accepted) ... ok
+test_source_changes_invalidate_only_the_extracted_view (test_ecology.EcologyTests.test_source_changes_invalidate_only_the_extracted_view) ... ok
+test_batch_and_redirect_identity (test_photos.PhotoTests.test_batch_and_redirect_identity) ... ok
+test_cc0_label_is_not_applied_to_cc_by_and_failures_retry (test_photos.PhotoTests.test_cc0_label_is_not_applied_to_cc_by_and_failures_retry) ... ok
+test_current_thumbnail_host_and_kogl_type_one_only (test_photos.PhotoTests.test_current_thumbnail_host_and_kogl_type_one_only) ... ok
+test_fallback_rejects_wrong_species_and_copyrighted_photos (test_photos.PhotoTests.test_fallback_rejects_wrong_species_and_copyrighted_photos) ... ok
+test_missing_photo_is_cached_and_network_failure_is_not (test_photos.PhotoTests.test_missing_photo_is_cached_and_network_failure_is_not) ... ok
+test_photo_attribution_and_permanent_cache (test_photos.PhotoTests.test_photo_attribution_and_permanent_cache) ... ok
+test_public_domain_fallback_and_independent_permanent_cache (test_photos.PhotoTests.test_public_domain_fallback_and_independent_permanent_cache) ... ok
+test_reject_unlicensed_icons_or_untrusted_urls (test_photos.PhotoTests.test_reject_unlicensed_icons_or_untrusted_urls) ... ok
+test_wikidata_does_not_expand_fallback_license_policy (test_photos.PhotoTests.test_wikidata_does_not_expand_fallback_license_policy) ... ok
+test_wikidata_extends_cached_missing_photo_without_recollection (test_photos.PhotoTests.test_wikidata_extends_cached_missing_photo_without_recollection) ... ok
+test_wikidata_file_retry_reuses_verified_entity_candidates (test_photos.PhotoTests.test_wikidata_file_retry_reuses_verified_entity_candidates) ... ok
+test_wikidata_rejects_other_taxon_and_deprecated_names (test_photos.PhotoTests.test_wikidata_rejects_other_taxon_and_deprecated_names) ... ok
+test_wrong_species_and_disambiguation_do_not_get_photos (test_photos.PhotoTests.test_wrong_species_and_disambiguation_do_not_get_photos) ... ok
+test_basic_questions_always_available (test_questions.RecommendedQuestionsTests.test_basic_questions_always_available) ... ok
+test_distribution_question_distinguishes_historical_records (test_questions.RecommendedQuestionsTests.test_distribution_question_distinguishes_historical_records) ... ok
+test_only_supported_ecology_fields_are_suggested (test_questions.RecommendedQuestionsTests.test_only_supported_ecology_fields_are_suggested) ... ok
+test_chat_input_inner_surface_and_webkit_text_are_themed (test_theme.ThemeTests.test_chat_input_inner_surface_and_webkit_text_are_themed) ... ok
+test_complete_palettes_and_safe_mode_fallback (test_theme.ThemeTests.test_complete_palettes_and_safe_mode_fallback) ... ok
+test_react_aria_controls_have_explicit_surface_and_text_colors (test_theme.ThemeTests.test_react_aria_controls_have_explicit_surface_and_text_colors) ... ok
+test_status_summary_and_plain_source_text_are_themed (test_theme.ThemeTests.test_status_summary_and_plain_source_text_are_themed) ... ok
+test_text_palette_contrast (test_theme.ThemeTests.test_text_palette_contrast) ... ok
+test_tooltip_surface_and_nested_text_use_the_same_palette (test_theme.ThemeTests.test_tooltip_surface_and_nested_text_use_the_same_palette) ... ok
+test_card_navigation_resets_filters_and_separate_history (test_ui.UiTests.test_card_navigation_resets_filters_and_separate_history) ... 2026-10-22 11:17:30.126 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-22 11:17:30.964 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-22 11:17:30.964 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_comparison_has_independent_search_and_filters (test_ui.UiTests.test_comparison_has_independent_search_and_filters) ... 2026-10-22 11:17:32.266 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_comparison_prevents_selecting_the_same_species (test_ui.UiTests.test_comparison_prevents_selecting_the_same_species) ... 2026-10-22 11:17:32.779 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_explore_and_compare_are_independent_pages (test_ui.UiTests.test_explore_and_compare_are_independent_pages) ... 2026-10-22 11:17:33.115 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_explore_keyword_composition_toggle_and_reset (test_ui.UiTests.test_explore_keyword_composition_toggle_and_reset) ... 2026-10-22 11:17:33.545 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-22 11:17:34.004 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_information_status_and_provenance_without_api_key (test_ui.UiTests.test_information_status_and_provenance_without_api_key) ... 2026-10-22 11:17:34.035 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_no_key_browsing_and_filtering (test_ui.UiTests.test_no_key_browsing_and_filtering) ... 2026-10-22 11:17:34.316 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_photos_in_species_page_and_search_cards (test_ui.UiTests.test_photos_in_species_page_and_search_cards) ... 2026-10-22 11:17:34.682 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-22 11:17:34.962 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_public_domain_photo_is_labeled (test_ui.UiTests.test_public_domain_photo_is_labeled) ... 2026-10-22 11:17:34.993 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-22 11:17:35.280 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_recommended_question_prefills_without_sending_and_tracks_species (test_ui.UiTests.test_recommended_question_prefills_without_sending_and_tracks_species) ... 2026-10-22 11:17:35.310 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_start_recovers_stale_ui_module_missing_new_helpers (test_ui.UiTests.test_start_recovers_stale_ui_module_missing_new_helpers) ... 2026-10-22 11:17:35.829 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_theme_and_profile_layout_are_present (test_ui.UiTests.test_theme_and_profile_layout_are_present) ... 2026-10-22 11:17:36.455 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_theme_toggle_preserves_search_and_navigation (test_ui.UiTests.test_theme_toggle_preserves_search_and_navigation) ... 2026-10-22 11:17:36.732 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 79 tests in 9.243s
+
+OK

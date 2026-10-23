@@ -1,0 +1,13 @@
+[
+  {
+    "species_id": "sp_0001",
+    "document_id": "your-approved-document-id",
+    "document_title": "이용 조건을 확인한 종별 문서 제목",
+    "file": "documents/your-document.pdf",
+    "pages": [1],
+    "source_url": "https://example.org/original",
+    "license": "실제로 확인한 이용 조건",
+    "license_evidence_url": "https://example.org/license",
+    "license_confirmed": false
+  }
+]

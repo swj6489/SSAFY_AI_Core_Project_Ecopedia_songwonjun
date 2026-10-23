@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-23",
+  "known_secret_values_printed": false,
+  "scanned_members_including_archives": 197,
+  "archives_including_office": 5,
+  "known_secret_matches": [],
+  "env_members_in_archives": [],
+  "excluded_local_only": [
+    ".env",
+    "venv",
+    ".venv",
+    ".git",
+    "__pycache__",
+    ".idea",
+    "runtime"
+  ],
+  "scope_note": "현재 배포 대상 소스·산출물 및 기존 기록 ZIP의 원문 바이트·내부 파일 검사. 이미지 픽셀 OCR·미래 제출 ZIP·알려지지 않은 비밀값 검사를 보장하지 않음.",
+  "plaintext_scan_passed": true
+}

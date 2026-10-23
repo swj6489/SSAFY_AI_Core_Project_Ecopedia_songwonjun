@@ -1,0 +1,19 @@
+{
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "top_k": 4,
+  "search_type": "similarity",
+  "mmr_fetch_k": 20,
+  "mmr_lambda": 0.5,
+  "catalog_candidates": 20,
+  "max_queries": 3,
+  "max_documents_per_query": 3,
+  "request_interval_seconds": 1.0,
+  "request_timeout_seconds": 30,
+  "llm_timeout_seconds": 60,
+  "llm_max_retries": 2,
+  "metadata_collection": "species_meta",
+  "documents_collection": "species_docs",
+  "metadata_source_basis_date": "2022-12-09",
+  "auto_collect": true
+}

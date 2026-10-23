@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-23",
+  "question": "삵은 주로 무엇을 먹으며 어떤 시간대에 활동하는가?",
+  "species": "삵",
+  "model": "gpt-5.4-mini",
+  "auto_collect": true,
+  "acceptance_target_seconds": 30,
+  "target_note": "공식 명세에 수치 SLA가 없어 이번 대화형 질의 검증의 임시 기준을 30초 이내로 사전 설정함.",
+  "cache_note": "기존 색인·본문 캐시를 지우지 않고 첫 질의와 같은 질문 재질의를 같은 프로세스에서 실행. 최초 신규 수집/새 PC 부팅 시간을 뜻하지 않음.",
+  "runs": [
+    {
+      "attempt": 1,
+      "wall_seconds": 6.521,
+      "reported_seconds": 6.52,
+      "cited_evidence_count": 1,
+      "answer": "삵은 주로 쥐 종류와 두더지, 꿩, 멧토끼, 청설모, 다람쥐, 메추라기, 날다람쥐, 하늘다람쥐, 잉어, 송어, 붕어, 비둘기 등을 먹습니다. [근거 2] 또한 밤에 주로 활동하는 야행성입니다. [근거 2]",
+      "notices": [],
+      "cache_query_counts": [
+        1
+      ],
+      "query_counts": [
+        3
+      ],
+      "within_target": true
+    },
+    {
+      "attempt": 2,
+      "wall_seconds": 27.842,
+      "reported_seconds": 27.84,
+      "cited_evidence_count": 1,
+      "answer": "삵의 먹이는 주로 쥐 종류와 두더지, 꿩, 멧토끼, 청설모, 다람쥐, 메추라기, 날다람쥐, 하늘다람쥐, 잉어, 송어, 붕어, 비둘기 등입니다. [근거 2] 또한 닭·오리·거위 같은 가금류도 잡아먹습니다. [근거 2] 삵은 밤에 주로 활동하는 야행성입니다. [근거 2]",
+      "notices": [],
+      "cache_query_counts": [
+        2
+      ],
+      "query_counts": [
+        3
+      ],
+      "within_target": true
+    }
+  ],
+  "both_within_target": true,
+  "both_answers_cited": true
+}

@@ -1,0 +1,132 @@
+{
+  "checked_on": "2026-10-21",
+  "chat_model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "metadata_count": 282,
+  "document_chunk_count": 147,
+  "condition_matches": [
+    {
+      "species_id": "sp_0016",
+      "name": "물개",
+      "grade": 2,
+      "group": "포유류",
+      "reason": "멸종위기 등급이 2급인 포유류로 확인됨."
+    },
+    {
+      "species_id": "sp_0015",
+      "name": "담비",
+      "grade": 2,
+      "group": "포유류",
+      "reason": "멸종위기 등급이 2급인 포유류로 확인됨."
+    },
+    {
+      "species_id": "sp_0020",
+      "name": "하늘다람쥐",
+      "grade": 2,
+      "group": "포유류",
+      "reason": "멸종위기 등급이 2급인 포유류로 확인됨."
+    },
+    {
+      "species_id": "sp_0019",
+      "name": "토끼박쥐",
+      "grade": 2,
+      "group": "포유류",
+      "reason": "멸종위기 등급이 2급인 포유류로 확인됨."
+    },
+    {
+      "species_id": "sp_0018",
+      "name": "큰바다사자",
+      "grade": 2,
+      "group": "포유류",
+      "reason": "멸종위기 등급이 2급인 포유류로 확인됨."
+    },
+    {
+      "species_id": "sp_0017",
+      "name": "삵",
+      "grade": 2,
+      "group": "포유류",
+      "reason": "멸종위기 등급이 2급인 포유류로 확인됨."
+    }
+  ],
+  "answers": [
+    {
+      "species": [
+        "삵"
+      ],
+      "question": "삵은 주로 무엇을 먹으며 어떤 시간대에 활동하는가?",
+      "answer": "삵은 주로 쥐 종류, 두더지, 꿩, 멧토끼, 청설모, 다람쥐, 메추라기, 날다람쥐, 하늘다람쥐, 잉어, 송어, 붕어, 비둘기 등을 먹습니다. 또한, 닭이나 오리, 거위와 같은 가금류도 잡아먹습니다. 삵은 주로 밤에 활동하는 야행성 동물입니다. [근거 2]",
+      "elapsed_seconds": 8.98,
+      "references": [
+        {
+          "evidence_id": 2,
+          "title": "삵",
+          "url": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+          "revision_id": "42125086",
+          "license": "CC BY-SA 4.0 (문서별 예외 확인)"
+        }
+      ],
+      "cached_queries": 1
+    },
+    {
+      "species": [
+        "산양",
+        "사향노루"
+      ],
+      "question": "산양과 사향노루의 서식 환경과 주요 위협 요인을 비교해줘.",
+      "answer": "| 구분       | 산양                                   | 사향노루                               |\n|------------|----------------------------------------|----------------------------------------|\n| 서식 환경  | 해발 1,000m 이상의 침엽수림, 바위·절벽 | 해발 1,000m 이상의 높은 산, 바위      |\n| 국내 분포  | 확인된 정보 없음                       | 확인된 정보 없음                       |\n| 주요 위협 요인 | 확인된 정보 없음                     | 사냥과 생태계 파괴                     |\n\n산양은 해발 1,000m 이상의 침엽수림을 좋아하며 바위와 절벽에서 서식합니다. [근거 2] 사향노루 역시 해발 1,000m 이상의 높은 산에서 주로 서식하며 바위나 나무껍질에 붙어사는 식물과 풀을 먹습니다. [근거 7] 두 종 모두 국내 분포에 대한 확인된 정보는 없습니다. 산양의 주요 위협 요인은 확인되지 않았으나, 사향노루는 사냥과 생태계 파괴로 인해 위협받고 있습니다. [근거 6][근거 9]",
+      "elapsed_seconds": 11.74,
+      "references": [
+        {
+          "evidence_id": 2,
+          "title": "산양",
+          "url": "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%96%91",
+          "revision_id": "42531444",
+          "license": "CC BY-SA 4.0 (문서별 예외 확인)"
+        },
+        {
+          "evidence_id": 7,
+          "title": "사향노루",
+          "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%96%A5%EB%85%B8%EB%A3%A8",
+          "revision_id": "41179375",
+          "license": "CC BY-SA 4.0 (문서별 예외 확인)"
+        },
+        {
+          "evidence_id": 6,
+          "title": "사향노루 종 메타데이터",
+          "url": "https://www.nie.re.kr/nie/cmmn/file/fileDown.do?atchFileId=65e8ae569f7e4520b6106ffdf92c3161&fileSn=1",
+          "revision_id": "",
+          "license": ""
+        },
+        {
+          "evidence_id": 9,
+          "title": "사향노루",
+          "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%96%A5%EB%85%B8%EB%A3%A8",
+          "revision_id": "41179375",
+          "license": "CC BY-SA 4.0 (문서별 예외 확인)"
+        }
+      ],
+      "cached_queries": 4
+    },
+    {
+      "species": [
+        "삵"
+      ],
+      "question": "2026년 10월 21일 국내 야생 삵의 정확한 개체수는 몇 마리인가? 문서에 없는 정보는 추측하지 마.",
+      "answer": "제공된 문서에서 확인되지 않습니다.",
+      "elapsed_seconds": 6.97,
+      "references": [],
+      "cached_queries": 1
+    }
+  ],
+  "live_ui": {
+    "page_title": "🌿 EcoPedia",
+    "selected_species": "삵",
+    "answer": "삵은 주로 쥐 종류, 두더지, 꿩, 멧토끼, 청설모, 다람쥐, 메추라기, 날다람쥐, 하늘다람쥐, 잉어, 송어, 붕어, 비둘기 등을 먹습니다. 또한, 밤에 주로 활동하는 야행성 동물입니다. [근거 2]",
+    "cited_evidence_count": 1,
+    "source_links_rendered": 1,
+    "exceptions": 0,
+    "elapsed_seconds": 13.73
+  },
+  "automated_tests_passed": 19
+}
